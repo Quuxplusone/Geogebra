@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<geogebra format="5.0" version="5.0.350.0" id="36a1a742-92f9-4347-894a-b9fe86fcee0d"
+  xsi:noNamespaceSchemaLocation="http://www.geogebra.org/ggb.xsd"
+  xmlns=""
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<gui>
+	<window width="434" height="449" />
+	<perspectives>
+<perspective id="tmp">
+	<panes>
+		<pane location="" divider="0.4608294930875576" orientation="1" />
+	</panes>
+	<views>
+		<view id="4097" visible="false" inframe="true" stylebar="true" location="1,1,1,1" size="400" window="74,157,700,550" />
+		<view id="512" toolbar="0 | 1 501 5 19 , 67 | 2 15 45 18 , 7 37 | 514 3 9 , 13 44 , 47 | 16 | 551 550 11 ,  20 22 21 23 , 55 56 57 , 12 | 69 | 510 511 , 512 513 | 533 531 , 534 532 , 522 523 , 537 536 , 535 | 521 520 | 36 , 38 49 560 | 571 30 29 570 31 33 | 17 | 540 40 41 42 , 27 28 35 , 6 , 502" visible="false" inframe="false" stylebar="true" location="1,1,1" size="500" window="100,100,600,400" />
+		<view id="4" toolbar="0 || 2020 , 2021 , 2022 , 66 || 2001 , 2003 , 2002 , 2004 , 2005 || 2040 , 2041 , 2042 , 2044 , 2043" visible="false" inframe="false" stylebar="true" location="1,1" size="300" window="100,100,600,400" />
+		<view id="8" toolbar="1001 | 1002 | 1003  || 1005 | 1004 || 1006 | 1007 | 1010 || 1008 1009 || 66 68 || 6" visible="false" inframe="false" stylebar="true" location="1,3" size="300" window="100,100,600,400" />
+		<view id="1" visible="true" inframe="false" stylebar="false" location="1" size="418" window="100,100,600,400" />
+		<view id="2" visible="false" inframe="false" stylebar="false" location="3" size="200" window="100,100,250,400" />
+		<view id="16" visible="false" inframe="false" stylebar="false" location="1" size="150" window="50,50,500,500" />
+		<view id="32" visible="false" inframe="false" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="64" toolbar="0" visible="false" inframe="true" stylebar="true" location="1" size="150" window="50,50,500,500" />
+		<view id="70" toolbar="0 || 2020 || 2021 || 2022" visible="false" inframe="true" stylebar="true" location="1" size="150" window="50,50,500,500" />
+	</views>
+	<toolbar show="false" items="0 39 | 1 501 67 , 5 19 , 72 75 76 | 2 15 45 , 18 65 , 7 37 | 4 3 8 9 , 13 44 , 58 , 47 | 16 51 64 , 70 | 10 34 53 11 , 24  20 22 , 21 23 | 55 56 57 , 12 | 36 46 , 38 49  50 , 71 | 30 29 54 32 31 33 | 17 26 62 73 , 14 68 | 25 52 60 61 | 40 41 42 , 27 28 35 , 6" position="1" help="false" />
+	<input show="false" cmd="false" top="algebra" />
+	<dockBar show="false" east="true" />
+</perspective>
+	</perspectives>
+	<labelingStyle  val="3"/>
+	<font  size="18"/>
+</gui>
+<euclidianView>
+	<viewNumber viewNo="1"/>
+	<size  width="418" height="375"/>
+	<coordSystem xZero="147" yZero="288" scale="50" yscale="50"/>
+	<evSettings axes="false" grid="false" gridIsBold="false" pointCapturing="3" rightAngleStyle="1" checkboxSize="26" gridType="0"/>
+	<bgColor r="255" g="255" b="255"/>
+	<axesColor r="0" g="0" b="0"/>
+	<gridColor r="192" g="192" b="192"/>
+	<lineStyle axes="1" grid="0"/>
+	<axis id="0" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+	<axis id="1" show="false" label="" unitLabel="" tickStyle="1" showNumbers="true"/>
+</euclidianView>
+<kernel>
+	<continuous val="false"/>
+	<usePathAndRegionParameters val="true"/>
+	<decimals val="2"/>
+	<angleUnit val="degree"/>
+	<algebraStyle val="0" spreadsheet="0"/>
+	<coordStyle val="0"/>
+</kernel>
+<scripting blocked="false" disabled="false"/>
+<construction title="Klein 1893" author="" date="">
+<element type="point" label="AO">
+	<show object="true" label="false"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isShape val="false"/>
+	<coords x="-0.5" y="3.4" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="AR">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.0"/>
+	<layer val="0"/>
+	<labelMode val="0"/>
+	<isShape val="false"/>
+	<coords x="1.0" y="4.3" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="AO" a1="AR"/>
+	<output a0="a"/>
+</command>
+<element type="conic" label="a">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="255" g="0" b="0" alpha="0.1"/>
+	<lineStyle thickness="2" type="0" typeHidden="1"/>
+</element>
+<element type="point" label="BO">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="255" b="0" alpha="0.0"/>
+	<coords x="2.0" y="1.9" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="BR">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="255" b="0" alpha="0.0"/>
+	<coords x="2.0" y="1.1" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="BO" a1="BR"/>
+	<output a0="b"/>
+</command>
+<element type="conic" label="b">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="255" b="0" alpha="0.1"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+</element>
+<element type="point" label="CO">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0.0"/>
+	<coords x="0.35" y="0.6" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<element type="point" label="CR">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0.0"/>
+	<coords x="-0.3" y="-0.3" z="1"/>
+	<pointSize val="5"/>
+	<pointStyle val="0"/>
+</element>
+<command name="Circle">
+	<input a0="CO" a1="CR"/>
+	<output a0="c"/>
+</command>
+<element type="conic" label="c">
+	<show object="true" label="false" ev="4"/>
+	<objColor r="0" g="0" b="255" alpha="0.1"/>
+	<lineStyle thickness="4" type="0" typeHidden="1"/>
+</element>
+
+<command name='Mirror'><input a0='a' a1='b'/><output a0='bCaD'/></command>
+<element type='conic' label='bCaD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='a' a1='c'/><output a0='cCaD'/></command>
+<element type='conic' label='cCaD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='b' a1='a'/><output a0='aCbD'/></command>
+<element type='conic' label='aCbD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='b' a1='c'/><output a0='cCbD'/></command>
+<element type='conic' label='cCbD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='c' a1='a'/><output a0='aCcD'/></command>
+<element type='conic' label='aCcD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='c' a1='b'/><output a0='bCcD'/></command>
+<element type='conic' label='bCcD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='a' a1='b'/><output a0='bCaD'/></command>
+<element type='conic' label='bCaD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='a' a1='c'/><output a0='cCaD'/></command>
+<element type='conic' label='cCaD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='a' a1='bCaD'/><output a0='bCaDCaD'/></command>
+<element type='conic' label='bCaDCaD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='a' a1='cCaD'/><output a0='cCaDCaD'/></command>
+<element type='conic' label='cCaDCaD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='a' a1='aCbD'/><output a0='aCbDCaD'/></command>
+<element type='conic' label='aCbDCaD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='a' a1='cCbD'/><output a0='cCbDCaD'/></command>
+<element type='conic' label='cCbDCaD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='a' a1='aCcD'/><output a0='aCcDCaD'/></command>
+<element type='conic' label='aCcDCaD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='a' a1='bCcD'/><output a0='bCcDCaD'/></command>
+<element type='conic' label='bCcDCaD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='b' a1='a'/><output a0='aCbD'/></command>
+<element type='conic' label='aCbD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='b' a1='c'/><output a0='cCbD'/></command>
+<element type='conic' label='cCbD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='b' a1='bCaD'/><output a0='bCaDCbD'/></command>
+<element type='conic' label='bCaDCbD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='b' a1='cCaD'/><output a0='cCaDCbD'/></command>
+<element type='conic' label='cCaDCbD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='b' a1='aCbD'/><output a0='aCbDCbD'/></command>
+<element type='conic' label='aCbDCbD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='b' a1='cCbD'/><output a0='cCbDCbD'/></command>
+<element type='conic' label='cCbDCbD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='b' a1='aCcD'/><output a0='aCcDCbD'/></command>
+<element type='conic' label='aCcDCbD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='b' a1='bCcD'/><output a0='bCcDCbD'/></command>
+<element type='conic' label='bCcDCbD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='c' a1='a'/><output a0='aCcD'/></command>
+<element type='conic' label='aCcD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='c' a1='b'/><output a0='bCcD'/></command>
+<element type='conic' label='bCcD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='c' a1='bCaD'/><output a0='bCaDCcD'/></command>
+<element type='conic' label='bCaDCcD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='c' a1='cCaD'/><output a0='cCaDCcD'/></command>
+<element type='conic' label='cCaDCcD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='c' a1='aCbD'/><output a0='aCbDCcD'/></command>
+<element type='conic' label='aCbDCcD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='c' a1='cCbD'/><output a0='cCbDCcD'/></command>
+<element type='conic' label='cCbDCcD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='c' a1='aCcD'/><output a0='aCcDCcD'/></command>
+<element type='conic' label='aCcDCcD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='c' a1='bCcD'/><output a0='bCcDCcD'/></command>
+<element type='conic' label='bCcDCcD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCaD' a1='a'/><output a0='aCbCaDD'/></command>
+<element type='conic' label='aCbCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCaD' a1='c'/><output a0='cCbCaDD'/></command>
+<element type='conic' label='cCbCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCaD' a1='cCaD'/><output a0='cCaDCbCaDD'/></command>
+<element type='conic' label='cCaDCbCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCaD' a1='aCbD'/><output a0='aCbDCbCaDD'/></command>
+<element type='conic' label='aCbDCbCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCaD' a1='cCbD'/><output a0='cCbDCbCaDD'/></command>
+<element type='conic' label='cCbDCbCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCaD' a1='aCcD'/><output a0='aCcDCbCaDD'/></command>
+<element type='conic' label='aCcDCbCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCaD' a1='bCcD'/><output a0='bCcDCbCaDD'/></command>
+<element type='conic' label='bCcDCbCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCaD' a1='a'/><output a0='aCcCaDD'/></command>
+<element type='conic' label='aCcCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCaD' a1='b'/><output a0='bCcCaDD'/></command>
+<element type='conic' label='bCcCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCaD' a1='bCaD'/><output a0='bCaDCcCaDD'/></command>
+<element type='conic' label='bCaDCcCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCaD' a1='aCbD'/><output a0='aCbDCcCaDD'/></command>
+<element type='conic' label='aCbDCcCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCaD' a1='cCbD'/><output a0='cCbDCcCaDD'/></command>
+<element type='conic' label='cCbDCcCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCaD' a1='aCcD'/><output a0='aCcDCcCaDD'/></command>
+<element type='conic' label='aCcDCcCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCaD' a1='bCcD'/><output a0='bCcDCcCaDD'/></command>
+<element type='conic' label='bCcDCcCaDD'><show object='true' label='false' ev='4'/>
+  <objColor r='255' g='0' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCbD' a1='b'/><output a0='bCaCbDD'/></command>
+<element type='conic' label='bCaCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCbD' a1='c'/><output a0='cCaCbDD'/></command>
+<element type='conic' label='cCaCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCbD' a1='bCaD'/><output a0='bCaDCaCbDD'/></command>
+<element type='conic' label='bCaDCaCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCbD' a1='cCaD'/><output a0='cCaDCaCbDD'/></command>
+<element type='conic' label='cCaDCaCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCbD' a1='cCbD'/><output a0='cCbDCaCbDD'/></command>
+<element type='conic' label='cCbDCaCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCbD' a1='aCcD'/><output a0='aCcDCaCbDD'/></command>
+<element type='conic' label='aCcDCaCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCbD' a1='bCcD'/><output a0='bCcDCaCbDD'/></command>
+<element type='conic' label='bCcDCaCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCbD' a1='a'/><output a0='aCcCbDD'/></command>
+<element type='conic' label='aCcCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCbD' a1='b'/><output a0='bCcCbDD'/></command>
+<element type='conic' label='bCcCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCbD' a1='bCaD'/><output a0='bCaDCcCbDD'/></command>
+<element type='conic' label='bCaDCcCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCbD' a1='cCaD'/><output a0='cCaDCcCbDD'/></command>
+<element type='conic' label='cCaDCcCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCbD' a1='aCbD'/><output a0='aCbDCcCbDD'/></command>
+<element type='conic' label='aCbDCcCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCbD' a1='aCcD'/><output a0='aCcDCcCbDD'/></command>
+<element type='conic' label='aCcDCcCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='cCbD' a1='bCcD'/><output a0='bCcDCcCbDD'/></command>
+<element type='conic' label='bCcDCcCbDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='255' b='0' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCcD' a1='b'/><output a0='bCaCcDD'/></command>
+<element type='conic' label='bCaCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCcD' a1='c'/><output a0='cCaCcDD'/></command>
+<element type='conic' label='cCaCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCcD' a1='bCaD'/><output a0='bCaDCaCcDD'/></command>
+<element type='conic' label='bCaDCaCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCcD' a1='cCaD'/><output a0='cCaDCaCcDD'/></command>
+<element type='conic' label='cCaDCaCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCcD' a1='aCbD'/><output a0='aCbDCaCcDD'/></command>
+<element type='conic' label='aCbDCaCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCcD' a1='cCbD'/><output a0='cCbDCaCcDD'/></command>
+<element type='conic' label='cCbDCaCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='aCcD' a1='bCcD'/><output a0='bCcDCaCcDD'/></command>
+<element type='conic' label='bCcDCaCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCcD' a1='a'/><output a0='aCbCcDD'/></command>
+<element type='conic' label='aCbCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCcD' a1='c'/><output a0='cCbCcDD'/></command>
+<element type='conic' label='cCbCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCcD' a1='bCaD'/><output a0='bCaDCbCcDD'/></command>
+<element type='conic' label='bCaDCbCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCcD' a1='cCaD'/><output a0='cCaDCbCcDD'/></command>
+<element type='conic' label='cCaDCbCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCcD' a1='aCbD'/><output a0='aCbDCbCcDD'/></command>
+<element type='conic' label='aCbDCbCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCcD' a1='cCbD'/><output a0='cCbDCbCcDD'/></command>
+<element type='conic' label='cCbDCbCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+<command name='Mirror'><input a0='bCcD' a1='aCcD'/><output a0='aCcDCbCcDD'/></command>
+<element type='conic' label='aCcDCbCcDD'><show object='true' label='false' ev='4'/>
+  <objColor r='0' g='0' b='255' alpha='0.1'/>
+  <lineStyle thickness='4' type='0' typeHidden='1'/>
+</element>
+
+</construction>
+</geogebra>

@@ -1,0 +1,53 @@
+<html>
+<head>
+  <style type="text/css">
+    body { margin: 0; padding: 0; background-color: white; overflow: hidden; }
+  </style>
+  <script type="text/javascript" src="https://www.geogebra.org/apps/latest/deployggb.js"></script>
+</head>
+<body class="vsc-initialized">
+<div>
+  <div id="applet_container" class="applet_container" style="width: 420px; height: 377px;">
+    <div class="applet_scaler ggbTransform" style="display: block; width: 420px; height: 377px;">
+        <div class="GeoGebraFrame jsloaded landscape small appletStyle dockPanelParent applet-unfocused"
+             style="width: 420px; height: 377px; border-width: 1px; border-style: solid; border-color: rgb(136, 136, 136);"
+        >
+          <div class="ggbdockpanelhack" style="right: 0px; bottom: 0px; width: 418px; height: 375px;">
+            <div style="position: absolute; z-index: -32767; top: -20ex; width: 10em; height: 10ex; visibility: hidden;">&nbsp;</div>
+            <div style="position: absolute; overflow: hidden; left: 0px; right: 0px; bottom: 0px; height: 0px;">
+              <div style="inset: 0px; position: absolute;"></div>
+            </div>
+            <div style="position: absolute; overflow: hidden; inset: 0px;">
+              <div role="application" style="inset: 0px; position: absolute;">
+                <div class="EuclidianPanel cursor_hit" style="position: relative; overflow: hidden; width: 418px; height: 375px;">
+                  <canvas data-test="euclidianView" width="836" height="750" role="application" tabindex="0" style="position: absolute; width: 418px; height: 375px;"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    var parameters = {
+        "id":"ggbApplet",
+        "height":377, "width":420,
+        "allowStyleBar":false, "allowUpscale":true,
+        "apiUrl":"https://api.geogebra.org",
+        "borderColor":"#888888",
+        "canary":false,
+        "enableLabelDrags":false,"enableRightClick":false,"enableShiftDragZoom":false,
+        "errorDialogsActive":true,
+        "filename":"https://proxy.cors.sh/https://quuxplusone.github.io/Geogebra/Klein1893/materials.zip",
+        "showToolBar":false,"showToolBarHelp":false,"showZoomButtons":false,"useBrowserForJS":false
+    };
+    var views = {"is3D":0,"AV":0,"SV":0,"CV":0,"EV2":0,"CP":0,"PC":0,"DA":0,"FI":0,"PV":0,"macro":0};
+    var applet = new GGBApplet('5.0', parameters, views, true);
+
+    window.addEventListener("load", function() {
+        applet.inject('applet_container', 'auto');
+    });
+</script>
+
+</body></html>
